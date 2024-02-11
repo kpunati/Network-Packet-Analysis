@@ -17,12 +17,12 @@ Please note that `packet_analysis.py` and `packet_visualization.py` require the 
 
 
 In this script:
-•	We utilize Scapy's sniff function to capture network packets in real-time.
-•	We count the number of TCP and UDP packets separately, enabling protocol distribution analysis.
-•	We compute statistical measures such as mean, maximum, minimum, and standard deviation for packet lengths, offering insights into packet size distribution.
-•	We count occurrences of each TCP flag within the captured TCP packets, facilitating analysis of TCP protocol behavior.
-• We visualize the packet counts for TCP and UDP, the distribution of packet lengths, and the occurrences of TCP flags
-•	The script features robust error handling to ensure reliability during packet capture and analysis.
-•	The script assumes TCP and UDP traffic in the pcap file; however, it can be adjusted to accommodate other types of network traffic as needed.
+1. We utilize Scapy's sniff function to capture network packets in real-time.
+2. We count the number of TCP and UDP packets separately, enabling protocol distribution analysis.
+3. We compute statistical measures such as mean, maximum, minimum, and standard deviation for packet lengths, offering insights into packet size distribution.
+4. We count occurrences of each TCP flag within the captured TCP packets, facilitating analysis of TCP protocol behavior.
+5. We visualize the packet counts for TCP and UDP, the distribution of packet lengths, and the occurrences of TCP flags
+6. The script features robust error handling to ensure reliability during packet capture and analysis.
+7. The script assumes TCP and UDP traffic in the pcap file; however, it can be adjusted to accommodate other types of network traffic as needed.
 
 
